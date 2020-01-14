@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+.notesdisplay3 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+    background-color: #ffa929;
+    padding: 19px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: black;
+
+  }
+  
+  .notesdisplay3:before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    height: 0;
+    width: 0;
+    border: 28px solid transparent;
+    border-bottom-color: #ffa929;
+    margin-left: -28px;
+  }
+  
+  .notesdisplay3:after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #ffa929;
+    margin-left: -20px;
+    margin-bottom: -20px;
+    z-index: -1;
+    box-shadow: 0 0 5px #CCC;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .popupTitle{
+    font-size: 18px;
+  }
+
+  .popupDescription{
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .popupbuttons{
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .button{
+    width: 90px;
+    height: 26px;
+    border: solid 1px #2d2d2d;
+    background: #ffa929;
+    margin: 5px;
+  }
+
+  .footerLine{
+    font-weight: normal;
+  }

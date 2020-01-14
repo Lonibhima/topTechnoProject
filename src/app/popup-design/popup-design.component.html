@@ -1,0 +1,24 @@
+<div class="notesdisplay3" *ngIf="firstPopup">
+    <div class="popup">
+     <span class="popupTitle"> Pre-Filter Your Search. </span> <br>
+     <span class="popupDescription"> Choose a content type to get your desired result faster. </span> <br>
+     <div class="popupbuttons">
+       <button class="button" (click)="backbutton();">< back</button>
+      <button class="button" (click)="nextbutton()">next ></button>
+     </div>
+     <span class="footerLine">chose(you can replay this tutorial with help menu.)</span>
+    </div>
+  </div>
+  
+  
+  <div class="notesdisplay3" *ngIf="SecondPopup">
+    <div class="popup">
+     <span class="popupTitle"> Pre-Filter Your Search - 2 </span> <br>
+     <span class="popupDescription"> Choose a content type to get your desired result faster. </span> <br>
+     <div class="popupbuttons">
+       <button class="button" (click)="backbutton();">< back</button>
+      <button class="button" (click)="nextbutton();">next ></button>
+     </div>
+     <span class="footerLine">chose(you can replay this tutorial with help menu.)</span>
+    </div>
+  </div>
